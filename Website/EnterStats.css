@@ -1,0 +1,174 @@
+#whiteBox {
+	position: relative;
+	border-radius: 10px;
+	margin: auto;
+	background-color: white;
+	top: 35px;
+	height: 676px;
+	width: 960px;
+	box-shadow: 0px 20px 50px -20px #000000;
+}
+
+#YourInformation {
+	position: absolute;
+	text-align: center;
+	top: 1%;
+	width: 100%;
+	font-family: "Adobe Fangsong Std";
+}
+
+#InspirationalQuote {
+	position: absolute;
+	width: 22%;
+	top: 15%;
+	left: 70%;
+	color: grey;
+	line-height: 40px;
+	text-align: center;
+}
+
+img {
+	display: block;
+	height: 900px;
+	width: 80%;
+	margin: auto;
+}
+
+#Gender1 {
+	position: absolute;
+	top: 15%;
+	left: 13%;
+	font: 15px "Lucida Grande", Lucida, Verdana, sans-serif;
+	font-weight: bold;
+}
+
+#Gender2 {
+	position: absolute;
+	top: 17.8%;
+	left: 50%;
+}
+
+#Height1 {
+	position: absolute;
+	top: 23%;
+	left: 13%;
+	font: 15px "Lucida Grande", Lucida, Verdana, sans-serif;
+	font-weight: bold;
+}
+
+#Height2 {
+	position: absolute;
+	top: 26%;
+	left: 13%;
+	font: 15px "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+#Height3 {
+	position: absolute;
+	top: 25.5%;
+	left: 50%;
+}
+
+#Height4 {
+	position: absolute;
+	top: 30.5%;
+	left: 50%;
+}
+
+#Weight1 {
+	position: absolute;
+	top: 36.5%;
+	left: 13%;
+	font: 15px "Lucida Grande", Lucida, Verdana, sans-serif;
+	font-weight: bold;
+}
+
+#Weight2 {
+	position: absolute;
+	top: 39.5%;
+	left: 13%;
+	font: 15px "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+#Weight3 {
+	position: absolute;
+	top: 39%;
+	left: 50%;
+}
+
+#Weight4 {
+	position: absolute;
+	top: 44%;
+	left: 50%;
+}
+
+#Weight5 {
+	position: absolute;
+	top: 49%;
+	left: 50%;
+}
+
+#Age1 {
+	position: absolute;
+	top: 55%;
+	left: 13%;
+	font: 15px "Lucida Grande", Lucida, Verdana, sans-serif;
+	font-weight: bold;
+}
+
+#Age2 {
+	position: absolute;
+	top: 57.5%;
+	left: 50%;
+}
+
+#Activity1 {
+	position: absolute;
+	top: 63%;
+	left: 13%;
+	font: 15px "Lucida Grande", Lucida, Verdana, sans-serif;
+	font-weight: bold;
+}
+
+#Activity2 {
+	position: absolute;
+	top: 66%;
+	left: 50%;
+}
+
+#Goal1 {
+	position: absolute;
+	top: 71%;
+	left: 13%;
+	font: 15px "Lucida Grande", Lucida, Verdana, sans-serif;
+	font-weight: bold;
+}
+
+#Goal2 {
+	position: absolute;
+	top: 74%;
+	left: 50%;
+}
+
+#Submit {
+	position: absolute;
+	text-align: center;
+	top: 80%;
+	left: 47%;
+	width: 60px;
+	z-index: 1;
+}
+
+#Heart {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 84%;
+	left: 44.8%;
+}
+
+
+
+
+
+
