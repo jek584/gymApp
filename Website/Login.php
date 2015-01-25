@@ -78,45 +78,47 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 ?>
 <html>
 <head>
-	<link type="text/css" rel="stylesheet" href="Login.css" />
-	<title>Wrist Trainer</title>
+    <link type="text/css" rel="stylesheet" href="Login.css" />
+    <title>Wrist Trainer</title>
 </head>
 
 <body>
-	
-		<h1 id="wristTrainer">Wrist Trainer</h1>
-		
-		<div id="whiteBox">
-		<login>
-		<h1>Login</h1>
-		</login>
-		
-		<email>
-		<p><label for="usermail">Email</label>
-		<input style="width: 200px; height: 30px;" type="email" name="usermail" placeholder="yourname@email.com" required></p>
-		</email>
-					
-		<password>
-		<p id="password"><label for="password">Password</label>
-		<input style="width: 200px; height: 30px;" type="password" name="password" placeholder="password" required></p>
-		</password>
-					
-		<submit>
-		<p><input type="submit" value="Login"></p>
-		</submit>
-		
-		<a href="https://www.google.com">
-			<h5 id="CreateAccount">Create an account</h5>
-		</a>
-		<a href="https://www.google.com">
-			<h5 id="ForgotPassword">Forgot password?</h5>
-		</a>
-		</div>
-		
-		<div id="background" style='position:absolute;z-index:-1;left:0;top:0;width:100%;height:100%'>
-		  <img src='WristTrainer.jpg' style='width:100%;height:100%' alt='[]' />
-		</div>
-		
-	</div>
+
+<h1 id="wristTrainer">Wrist Trainer</h1>
+
+
+<div id="whiteBox">
+    <login>
+        <h1>Login</h1>
+    </login>
+
+    <email>
+        <p><label for="usermail">Email  </label>
+            <input style="width: 30%; height: 30px;"  type="email" name="usermail" placeholder="yourname@email.com" required></p>
+    </email>
+
+    <password>
+        <p id="password"><label for="password">Password</label>
+            <input style="width: 30%; height: 30px;"  type="password" name="password" placeholder="password"  required>
+        </p>
+    </password>
+
+    <submit>
+        <p><input type="submit" value="Login"></p>
+    </submit>
+
+    <a href="https://www.google.com">
+        <h5 id="CreateAccount">Create an account</h5>
+    </a>
+    <a href="https://www.google.com">
+        <h5 id="ForgotPassword">Forgot password?</h5>
+    </a>
+</div>
+
+<div id="background" style='position:absolute;z-index:-1;left:0;top:0;width:100%;height:100%'>
+    <img src='WristTrainer.jpg' style='width:100%;height:100%' alt='[]' />
+</div>
+
+</div>
 </body>
 </html>
